@@ -1,7 +1,7 @@
 {
   "name": "D365FO Finance + SCM + X++ Practice Lab",
-  "version": "5.0.0",
-  "phase": "5",
+  "version": "6.0.0",
+  "phase": "6",
   "date": "2026-09-26",
-  "notes": "Adds teaching-oriented X++ Developer Lab with 12 Foundation-to-Mid+ labs covering OOP, metadata, query performance, transactions, set-based processing, CoC, SysOperation, Data Entities, security, testing, code review and techno-functional design."
+  "notes": "Completes the end-to-end techno-functional capstone: discovery, fit-gap, Finance foundation, master data, P2P/O2C, month-end, production incident, X++ design review, UAT, cutover, go-live and handover."
 }
