@@ -1,7 +1,7 @@
 {
   "name": "D365FO Finance + SCM + X++ Practice Lab",
-  "version": "4.0.0",
-  "phase": "4",
+  "version": "5.0.0",
+  "phase": "5",
   "date": "2026-09-26",
-  "notes": "Adds SCM Junior Transaction Engine: product, procurement, receipts, invoicing, inventory, sales, planning, firming and costing/Finance bridge."
+  "notes": "Adds teaching-oriented X++ Developer Lab with 12 Foundation-to-Mid+ labs covering OOP, metadata, query performance, transactions, set-based processing, CoC, SysOperation, Data Entities, security, testing, code review and techno-functional design."
 }
