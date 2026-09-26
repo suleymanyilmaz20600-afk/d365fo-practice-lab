@@ -1,0 +1,26 @@
+name: Validate static lab
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check JavaScript syntax
+        run: |
+          node --check app.js
+          node --check phase3.js
+          node --check phase4.js
+          node --check phase5.js
+          node --check phase6.js
+      - name: Check required entry files
+        run: |
+          test -f index.html
+          test -f styles.css
+          test -f phase6.css
+          grep -q 'phase6.js' index.html
