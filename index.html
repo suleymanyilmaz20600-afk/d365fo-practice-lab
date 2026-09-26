@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>D365FO Finance + SCM + X++ Practice Lab · Phase 2.1</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div id="app">
+    <header class="topbar">
+      <button class="waffle" title="Uygulamalar">⠿</button>
+      <div class="brand">Dynamics 365 <span>Finance · SCM · X++ Practice Lab · Phase 2.1</span></div>
+      <div class="env-pill">USMF</div>
+      <div class="top-search"><span>⌕</span><input id="globalSearch" placeholder="Sayfa, eylem veya kayıt ara" /></div>
+      <button class="top-icon" id="helpBtn">?</button>
+      <button class="top-icon" id="settingsBtn" title="Lab ayarları">⚙</button>
+      <div class="avatar">SY</div>
+    </header>
+
+    <aside class="rail">
+      <button class="rail-btn active" data-nav="home" title="Giriş">⌂</button>
+      <button class="rail-btn" data-nav="workspaces" title="Çalışma alanları">▦</button>
+      <button class="rail-btn" data-nav="modules" title="Modüller">☰</button>
+      <button class="rail-btn" data-nav="favorites" title="Sık kullanılanlar">☆</button>
+      <div class="rail-spacer"></div>
+      <button class="rail-btn" data-nav="training" title="Eğitim merkezi">✓</button>
+      <button class="rail-btn" data-nav="xpp" title="X++ Lab">&lt;/&gt;</button>
+    </aside>
+
+    <section id="navPanel" class="nav-panel hidden">
+      <div class="nav-header"><strong id="navTitle">Modüller</strong><button id="closeNav">×</button></div>
+      <div id="navContent" class="nav-content"></div>
+    </section>
+
+    <main class="main">
+      <div class="breadcrumb" id="breadcrumb">Giriş</div>
+      <div id="page"></div>
+    </main>
+
+    <div id="toast" class="toast hidden"></div>
+    <div id="modalRoot"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>
